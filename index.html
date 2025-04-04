@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio Personal</title>
+    <link rel="stylesheet" type="text/css" href="./css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Encabezado -->
+    <header>
+        <h1>Desarrollo de Sistemas Web (Front End)</h1>
+        <h2>Práctica Formativa Obligatoria</h2> 
+    </header>
+
+    <!-- Menú de navegación -->
+    <nav>
+        <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#sobre-mi">Sobre mí</a></li>
+        <li><a href="#tarjetas">Proyectos</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <!-- Contenido Principal -->
+        <main>
+            <!-- Sección Principal -->
+            <section id="inicio">
+                <h2>Bienvenido a mi Portafolio</h2>
+                <article>
+                    <p>En este espacio encontrarás mis proyectos, habilidades y formas de contacto.</p>
+                </article>
+            </section>
+            
+            <!-- Sección Sobre Mí -->
+            <section id="sobre-mi">
+                <h2>Sobre Mí</h2>
+                <article>                    
+                    <p>Frontend Developer con conocimientos en tecnologías modernas como React, Angular y TypeScript. Experiencia en la creación de aplicaciones web optimizadas y responsivas, con enfoque en rendimiento y accesibilidad. Trabajo en equipo y colaboración con diseñadores y backend developers.</p>
+                </article>
+            </section>
+
+            <!-- Sección Proyectos -->
+            <section id="tarjetas">
+                <h2>Mis Proyectos</h2>
+                <div class="tarjetas-container">
+                    <div class="tarjeta">
+                        <img src="img/web.png" alt="Desarrollo Web">
+                        <div class="tarjeta-texto">
+                            <h3>Desarrollo Web</h3>
+                            <p>Creación de sitios web modernos y responsivos.</p>
+                        </div>
+                    </div>
+                    <div class="tarjeta">
+                        <img src="img/uxui.png" alt="Diseño UX/UI">
+                        <div class="tarjeta-texto">
+                            <h3>Diseño UX/UI</h3>
+                            <p>Diseños atractivos y centrados en la experiencia del usuario.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Sección Habilidades -->
+            <section id="habilidades">
+                <h2>Habilidades</h2>
+                <ul>
+                    <li>Desarrollo con React, Angular y TypeScript</li>
+                    <li>Maquetación con HTML, CSS y frameworks como Bootstrap</li>
+                    <li>Optimización de rendimiento y accesibilidad</li>
+                    <li>Trabajo en equipo y metodologías ágiles</li>
+                </ul>
+            </section>
+            
+            <!-- Sección Contacto -->
+            <section id="contacto">
+                <h2>Contacto</h2>
+                <form>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" required>
+                    
+                    <label for="apellido">Apellido:</label>
+                    <input type="text" id="apellido" required>
+            
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" required>
+            
+                    <label for="telefono">Teléfono:</label>
+                    <input type="tel" id="telefono">
+            
+                    <button type="submit">Enviar</button>
+                </form>
+            </section>
+            
+            <!-- Sección Películas -->
+            <section id="peliculas">
+                <h2>Películas Favoritas</h2>
+                <div class="peliculas-container">
+                    <div class="pelicula">
+                        <img src="img/matrix_reload.webp" alt="Matrix Recargado">
+                        <h3>Matrix - Reload</h3>
+                        <p>Las máquinas avanzan imparables hacia Zion en su afán por destruir a toda la humanidad y todas las naves se preparan para la dura batalla. Neo junto con Morfeo y Trinity buscan el camino del elegido dentro de Matrix para vencer a las máquinas y se encuentran con dificultades inesperadas: el agente Smith ha vuelto y no sólo eso, otros programas dentro de Matrix intentarán acabar con su misión. Mientras tanto Neo se tendrá que adaptar a la vida real y a la fama de ser el elegido.</p>
+                    </div>
+                    <div class="pelicula">
+                        <img src="img/el_retorno_del_rey.jpg" alt="El Retorno del Rey">
+                        <h3>El Señor de los Anillos - El Retorno del Rey</h3>
+                        <p>Gandalf y Aragorn lideran el Mundo de los hombres, e intentarán atraer la atención de Sauron para darle a Frodo la última oportunidad de completar su misión y así tratar de evitar sucumbir a las continuas tentaciones del Anillo.</p>
+                    </div>
+                    <div class="pelicula">
+                        <img src="img/cadena_perpetua.webp" alt="Sueños de Libertad">
+                        <h3>The Shawshank Redemption</h3>
+                        <p>Condenado por un asesinato que no cometió, Andy Dufresne empieza una nueva vida en la cárcel de Shawshank y va creando un estrecho vínculo con Red, un recluso veterano.</p>
+                    </div>
+                </div>
+            </section>       
+        </main>
+    </div>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>@2025 - Todos los derechos reservados</p>
+        <p>Creado por Mirta Verón</p>
+    </footer>
+
+</body>
+</html>
