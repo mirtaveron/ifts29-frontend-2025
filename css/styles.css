@@ -188,7 +188,7 @@ form button:hover {
 }
 
 #habilidades li::before {
-    content: "✔";  /* Check de validación */
+    content: "✔";          /* Check de validación */
     color: #007BFF;
     font-weight: bold;
     margin-right: 10px;
